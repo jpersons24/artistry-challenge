@@ -1,0 +1,5 @@
+<h1>Instruments</h1>
+
+<% @instruments.each do |inst| %>
+   <div><%= (link_to inst.name, instrument_path(inst)) + " - " + inst.classification %></div> 
+<% end %>
