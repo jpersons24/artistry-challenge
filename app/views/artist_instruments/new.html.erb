@@ -1,0 +1,12 @@
+<h1>Artist - Instrument</h1>
+
+
+<p>Choose an artist and the instrument that they play!</p>
+
+<%= form_for @ai do |f| %>
+   <%= f.label "Artist:" %>
+   <%= f.collection_select :artist_id, Artist.all, :id, :name %> <br>
+   <%= f.label "Instrument:" %>
+   <%= f.collection_select :instrument_id, Instrument.all, :id, :name %> <br>
+   <%= f.submit "Submit" %>
+<% end %>

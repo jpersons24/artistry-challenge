@@ -8,8 +8,5 @@
    <%= f.label "Title:" %>
    <%= f.text_field :title %> <br>
 
-   <%= f.label "Instrument:" %>
-   <%= f.collection_select :instrument.id, Instrument.all, :id, :name %>
-
    <%= f.submit %> 
 <% end %>

@@ -10,11 +10,31 @@ Some parts of the application have already been built out for you and you should
 After modifying the schema, these are your deliverables:
 
 1) As a user, I should be able to fill out a form to connect an artist with an instrument from the database. This form should be made with at least one dropdown (potentially two dropdowns). Upon successfully creating the association, I should be redirected to the artist's show page.  ** EDIT ** 
+<!-- 
+1. form for new ArtistInstrument using collection_select (artist, instrument)
+ -->
 
-2) In the artist's show page, I should be able to see the artist's age, title and name. I should also be able to see all the instruments that that specific artist plays.
+<!-- 2) In the artist's show page, I should be able to see the artist's age, title and name. I should also be able to see all the instruments that that specific artist plays. -->
+<!--
+1. Artist show page should display name, title, age
+2. displays all instruments associated with artist 
+ -->
 
-3) On the index page for an artist, there should be a list of all the artists' names. Clicking on one artist's name should take me to that artist's show page.
+<!-- 3) On the index page for an artist, there should be a list of all the artists' names. Clicking on one artist's name should take me to that artist's show page. -->
+<!-- 
+1. Lists all Artists
+2. links Artist names to specific show page
+ -->
 
-4) There should be an index page for all the instruments, where the name of all the instruments should be listed out, alongside each of their classifications.
+<!-- 4) There should be an index page for all the instruments, where the name of all the instruments should be listed out, alongside each of their classifications. -->
+<!-- 
+1. Index page lists all instruments and classifications
+ -->
 
-5) I should also be able to save a new artist into the database. While it's possible for an artist to have the same name, an artist must have a name. An artist must also have an unique title. After successfully creating an artist, I should be taken to the artist's show page.
+<!-- 5) I should also be able to save a new artist into the database. While it's possible for an artist to have the same name, an artist must have a name. An artist must also have an unique title. After successfully creating an artist, I should be taken to the artist's show page. -->
+<!--
+1. Create New Artist
+   - artist must have a name
+   - must have a unique title
+   - redirect to show page for New Artist
+ -->

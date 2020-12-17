@@ -5,7 +5,7 @@
 <div>Age: <%= @artist.age %></div>
 
 <h5>Instruments played:</h5>
-<% @artist.instruments_played.each do |inst| %>
+<% @artist.instruments.each do |inst| %>
    <ul>
       <li><%= inst.name %></li>
    </ul>
